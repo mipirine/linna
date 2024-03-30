@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Button from 'react-bootstrap/Button';
 //import { Col, Row } from 'react-bootstrap';
-import { Link, Element } from 'react-scroll';
+
 import '../App.css';
 import Logo from '../components/Logo';
+
 export const Home = () => {
+    const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
     
+
     return (
         <>
         
@@ -18,14 +25,13 @@ export const Home = () => {
             hyvässä seurassa</h1>
             
             <h4>Koe upeat golfkohteet ympäri maailman!</h4>
-             <Link to="matkat" smooth={true} duration={500}>
-                <Button variant='light'>TUTUSTU MATKOIHIN</Button>
-            </Link>  
+                <Button onclick={handleClick} variant='light'>TUTUSTU MATKOIHIN</Button>             
             </div>
         </head>
         <body>
       <div>
-      <div id="matkat" className="matkat main">
+      <div ref={ref} id="matkat" className="matkat main" style={{ height: '150rem' }} >
+     
         {/* <Row>
           <Col xs={12} sm={12} md={12} lg={4} >
             <div className='destLinks'>
