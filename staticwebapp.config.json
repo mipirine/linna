@@ -1,7 +1,13 @@
 {
+    "routes": [
+      { "route": "/pages/Home", "serve": "/index.html" },
+      { "route": "/pages/CostaNavarinoDetails", "serve": "/index.html" },
+      { "route": "/pages/PuertoBanusDetails", "serve": "/index.html" },
+      { "route": "/pages/LaGomeraDetails", "serve": "/index.html" }
+    ],
     "navigationFallback": {
-        "rewrite": "/index.html", 
-        "exclude": ["*.{svg,png,jpg,gif}", 
-        "*.css", "*.js"]
-    }    
-}
+      "rewrite": "/index.html",
+      "exclude": ["/assets/*", "/api/*"]
+    }
+  }
+  
