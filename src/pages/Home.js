@@ -1,8 +1,7 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
-import CostaNavarinoDetails from './CostaNavarinoDetails';
 
 import '../App.css';
 import Logo from '../components/Logo';

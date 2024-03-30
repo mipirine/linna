@@ -1,9 +1,9 @@
 import React from 'react'
-import Head from 'react'; 
+//import Head from 'react'; 
 import '../App.css';
 import NewCarousel from '../components/NewCarousel';
 import Logo from '../components/Logo';
-import { Container, Row, Col, ResponsiveEmbed }  
+import { Row, Col }  
     from 'react-bootstrap';
 //import SocialMedia from '../components/SocialMedia';
 

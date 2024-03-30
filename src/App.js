@@ -8,7 +8,7 @@ import PuertoBanusDetails from "./pages/PuertoBanusDetails";
 import LaGomeraDetails from "./pages/LaGomeraDetails";
 
 //import {Navbar } from './components/Navbar'
-import Layout from "./components/Layout";
+//import Layout from "./components/Layout";
 function App() {
 
   return (
