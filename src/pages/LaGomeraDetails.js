@@ -1,10 +1,10 @@
 import React from 'react' 
 import '../App.css';
-//import NewCarousel from '../components/NewCarousel';
+import NewCarousel from '../components/NewCarousel';
 import Logo from '../components/Logo';
 import { Row, Col }  
     from 'react-bootstrap';
-//import SocialMedia from '../components/SocialMedia';
+import SocialMedia from '../components/SocialMedia';
 //import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CostaNavarinoDetails = () => (
@@ -12,8 +12,8 @@ const CostaNavarinoDetails = () => (
    <div> 
         <div class="image-panel-container">
             <div>
-                {/* <SocialMedia /> */}
-                <Logo />
+            <SocialMedia />
+            <Logo />
             <img 
             src="./images/laGomera/kuva12.jpg" 
             height={400}
@@ -54,7 +54,7 @@ const CostaNavarinoDetails = () => (
         <Row>
             <Col xs={12} sm={12} md={12} lg={3}></Col>
             <Col xs={12} sm={12} md={12} lg={6}>
-            {/* <NewCarousel destination='laGomera' /> */}
+            <NewCarousel destination='laGomera' />
             </Col>
         </Row>
         </div>

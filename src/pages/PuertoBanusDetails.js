@@ -1,17 +1,17 @@
 import React from 'react';
 import '../App.css';
-//import NewCarousel from '../components/NewCarousel';
+import NewCarousel from '../components/NewCarousel';
 import Logo from '../components/Logo';
 import { Row, Col }  
     from 'react-bootstrap';
-//import SocialMedia from '../components/SocialMedia';
+import SocialMedia from '../components/SocialMedia';
 
 const BuertoBanusDetails = () => (
     
    <div> 
         <div class="image-panel-container">
             <div>
-            {/* <SocialMedia /> */}
+            <SocialMedia />
             <Logo />
             <img 
             src="./images/puertoBanus/kuva6.jpg" 
@@ -119,7 +119,7 @@ const BuertoBanusDetails = () => (
         <Row>
             <Col xs={12} sm={12} md={12} lg={3}></Col>
             <Col xs={12} sm={12} md={12} lg={6}>
-            {/* <NewCarousel destination='puertoBanus' /> */}
+            <NewCarousel destination='puertoBanus' />
             </Col>
         </Row>
         </div>

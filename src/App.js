@@ -6,7 +6,7 @@ import { Home } from './pages/Home';
 import CostaNavarinoDetails from "./pages/CostaNavarinoDetails";
 import PuertoBanusDetails from "./pages/PuertoBanusDetails";
 import LaGomeraDetails from "./pages/LaGomeraDetails";
-
+import ScrollToTop from './components/ScrollToTop';
 //import {Navbar } from './components/Navbar'
 //import Layout from "./components/Layout";
 function App() {
@@ -15,6 +15,7 @@ function App() {
     <>
     
     <BrowserRouter>
+    <ScrollToTop>
     <Routes>
     
       <Route path="/" element={<Home />}></Route>
@@ -23,6 +24,7 @@ function App() {
       <Route path="/laGomera" element={<LaGomeraDetails />}></Route>
       
     </Routes>
+    </ScrollToTop>
     </BrowserRouter>
     </>
   );

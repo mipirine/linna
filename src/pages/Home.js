@@ -5,7 +5,7 @@ import { Col, Row } from 'react-bootstrap';
 
 import '../App.css';
 import Logo from '../components/Logo';
-
+import SocialMedia from '../components/SocialMedia';
 
 export const Home = () => {            
     const navigate =useNavigate();
@@ -16,6 +16,7 @@ export const Home = () => {
         <head className="App-header main">
         
         <div className="etusivu">
+        <SocialMedia />
         <Logo />  
           
             <h1 style={{fontSize: '100px'}}>Golfmatkat<br />
@@ -43,9 +44,6 @@ export const Home = () => {
               peli- ja opetusmatka Kreikkaan</h5>
               <br />
               <Button onClick={()=> navigate('costaNavarino')}>LUE LISÄÄ</Button>
-              {/* <a href= {CostaNavarinoDetails} target="_self">
-               <Button  >LUE LISÄÄ</Button> 
-               </a> */}
               <br />
               <br />
             
@@ -61,7 +59,7 @@ export const Home = () => {
                 matkassa Marbellaan<br />
                 </h5>  
                 <br />
-                {/* <Button className="buttonInBall" onClick={()=> navigate('puertoBanus')}>LUE LISÄÄ</Button> */}              
+                <Button onClick={()=> navigate('puertoBanus')}>LUE LISÄÄ</Button>              
                 <br />
                 <br />
             </div>
@@ -75,7 +73,7 @@ export const Home = () => {
                 matkassa Kanariansaarille<br />
                 </h5> 
                 <br /> 
-                {/* <Button className="buttonInBall" onClick={()=> navigate('laGomera')}>LUE LISÄÄ</Button> */}
+                <Button onClick={()=> navigate('laGomera')}>LUE LISÄÄ</Button>
                 <br />
                 <br />
             </div>

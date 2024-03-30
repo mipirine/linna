@@ -5,7 +5,7 @@ import NewCarousel from '../components/NewCarousel';
 import Logo from '../components/Logo';
 import { Row, Col }  
     from 'react-bootstrap';
-//import SocialMedia from '../components/SocialMedia';
+import SocialMedia from '../components/SocialMedia';
 
 const CostaNavarinoDetails = () => (
     
@@ -13,7 +13,7 @@ const CostaNavarinoDetails = () => (
         <div class="image-panel-container">
             
             <div>
-                {/* <SocialMedia /> */}
+            <SocialMedia />
             <Logo />
             
             <img 
