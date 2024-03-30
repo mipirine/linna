@@ -8,19 +8,19 @@
             "rewrite": "./components/Layout"
         },
         {
-            "route": "/Home",
+            "route": "/",
             "rewrite": "./pages/Home"
         },
         {
-            "route": "/CostaNavarinoDetails",
+            "route": "costaNavarinoDetails",
             "rewrite": "./pages/CostaNavarinoDetails"
         },
         {
-            "route": "/PuertoBanus",
+            "route": "puertoBanus",
             "rewrite": "./pages/PuertoBanusDetails"
         },
         {
-            "route": "/LaGomera",
+            "route": "laGomera",
             "rewrite": "./pages/LaGomeraDetails"
         }
     ]
