@@ -1,5 +1,5 @@
 import React from 'react';
-//import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 //import { Col, Row } from 'react-bootstrap';
 //import { Link, Element } from 'react-scroll';
 import '../App.css';
@@ -18,6 +18,7 @@ export const Home = () => {
             hyvässä seurassa</h1>
             
             <h4>Koe upeat golfkohteet ympäri maailman!</h4>
+            <Button variant='light'>TUTUSTU MATKOIHIN</Button>
 {/*             <Link to="matkat" smooth={true} duration={500}>
                 <Button variant='light'>TUTUSTU MATKOIHIN</Button>
             </Link> */} 
