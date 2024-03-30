@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 //import { Col, Row } from 'react-bootstrap';
-//import { Link, Element } from 'react-scroll';
+import { Link, Element } from 'react-scroll';
 import '../App.css';
 import Logo from '../components/Logo';
 export const Home = () => {
@@ -18,10 +18,9 @@ export const Home = () => {
             hyvässä seurassa</h1>
             
             <h4>Koe upeat golfkohteet ympäri maailman!</h4>
-            <Button variant='light'>TUTUSTU MATKOIHIN</Button>
-{/*             <Link to="matkat" smooth={true} duration={500}>
+             <Link to="matkat" smooth={true} duration={500}>
                 <Button variant='light'>TUTUSTU MATKOIHIN</Button>
-            </Link> */} 
+            </Link>  
             </div>
         </head>
         <body>
