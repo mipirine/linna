@@ -16,12 +16,12 @@ function App() {
     
     <BrowserRouter>
     <Routes>
-    <Route path="/" element={<Layout />}>
+    
       <Route path="/" element={<Home />}></Route>
       <Route path="/costaNavarino" element={<CostaNavarinoDetails />}></Route>
       <Route path="/puertoBanus" element={<PuertoBanusDetails />}></Route>
       <Route path="/laGomera" element={<LaGomeraDetails />}></Route>
-      </Route>
+      
     </Routes>
     </BrowserRouter>
     </>

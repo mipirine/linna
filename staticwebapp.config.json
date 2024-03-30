@@ -1,9 +1,9 @@
 {
     "routes": [
-      { "route": "/pages/Home", "serve": "/index.html" },
-      { "route": "/pages/CostaNavarinoDetails", "serve": "/index.html" },
-      { "route": "/pages/PuertoBanusDetails", "serve": "/index.html" },
-      { "route": "/pages/LaGomeraDetails", "serve": "/index.html" }
+      { "route": "/", "serve": "/index.html" },
+      { "route": "/costaNavarinoDetails", "serve": "/index.html" },
+      { "route": "/puertoBanusDetails", "serve": "/index.html" },
+      { "route": "/laGomeraDetails", "serve": "/index.html" }
     ],
     "navigationFallback": {
       "rewrite": "/index.html",
