@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import CloseButton from 'react-bootstrap/CloseButton';
+//import CloseButton from 'react-bootstrap/CloseButton';
 import './StaticExample.module.css';
 import lindanCV from '../pages/lindaOsala';
 import tomminCV from '../pages/tommiLinna';
