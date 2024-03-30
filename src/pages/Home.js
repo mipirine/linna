@@ -1,12 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 //import { Col, Row } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
 import { Link, Element } from 'react-scroll';
 import '../App.css';
 import Logo from '../components/Logo';
 export const Home = () => {
-    const navigate =useNavigate();
+    
     return (
         <>
         
