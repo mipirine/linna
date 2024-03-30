@@ -1,17 +1,18 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
-import { Col, Row } from 'react-bootstrap';
-
+import { Col, Container, Row } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image';
 import '../App.css';
 import Logo from '../components/Logo';
 import SocialMedia from '../components/SocialMedia';
+import MyModal from '../components/MyModal';
 
 export const Home = () => {            
     const navigate =useNavigate();
     return (
         <>
-        
+        <div className="App">
         
         <head className="App-header main">
         
@@ -81,8 +82,64 @@ export const Home = () => {
         </Row> 
         </div>
         </div>
-        </body>
+        <div>
       
-        </>
+        
+
+        <Container className="containerPro">
+          <div>
+        <h2 className="h2">
+            Linnareissuilla opetuksesta<br />
+            vastaavat aina ammattilaiset: 
+            </h2>
+          <Row>
+            <Col xs={12} sm={12} md={12} lg={4} >
+              <Image src="./images/GolfPro-Tommi-Linna.jpg" width="auto" height="420px" rounded />
+              <h5 className="green">GolfPro</h5>
+              <h4>Tommi Linna</h4>
+              <MyModal name="Tommi Linna" />
+              
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={4} >
+              <Image src="./images/GolfPro-Linda-Osala.jpg" width="auto" height="420px" rounded />
+              <h5 className="green">GolfPro</h5>
+              <h4>Linda Osala</h4> 
+              <MyModal name="Linda Osala" />
+            
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={4} >
+              <Image src="./images/GolfPro-Teemu-Karvonen.jpg" width="auto" height="420px"rounded />
+              <h5 className="green">GolfPro</h5>
+              <h4>Teemu Karvonen</h4> 
+              <MyModal name="Teemu Karvonen" />
+            </Col>
+          </Row>
+          </div>
+        </Container>
+        
+        
+        <br /><br /><br /><br />
+    
+                    
+        <section>
+
+          <div>
+            
+          <div className="footer-image footer">
+          <h1 className="footerText">Tiedustelut ja lisätiedot:<br />
+          Tommi Linna<br />
+          0400 917133
+          </h1>
+
+          </div>
+
+          
+          </div>
+        </section>
+        </div>
+        <p>© Copyright, Linnareissut</p>
+      </body>
+    </div>
+    </>
     )
 }
