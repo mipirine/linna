@@ -1,5 +1,23 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
-    }
+    },
+    "routes":[
+        {
+            "route": "/Home",
+            "rewrite": "./pages/Home"
+        },
+        {
+            "route": "/CostaNavarino",
+            "rewrite": "./pages/CostaNavarinoDetails"
+        },
+        {
+            "route": "/PuertoBanus",
+            "rewrite": "./pages/PuertoBanusDetails"
+        },
+        {
+            "route": "/LaGomera",
+            "rewrite": "./pages/LaGomeraDetails"
+        },
+    ]
 }
