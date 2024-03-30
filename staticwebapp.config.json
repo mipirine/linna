@@ -1,27 +1,7 @@
 {
     "navigationFallback": {
-        "rewrite": "/index.html"
-    },
-    "routes":[
-        {
-            "route":"/Layout",
-            "rewrite": "./components/Layout"
-        },
-        {
-            "route": "/",
-            "rewrite": "./pages/Home"
-        },
-        {
-            "route": "costaNavarinoDetails",
-            "rewrite": "./pages/CostaNavarinoDetails"
-        },
-        {
-            "route": "puertoBanus",
-            "rewrite": "./pages/PuertoBanusDetails"
-        },
-        {
-            "route": "laGomera",
-            "rewrite": "./pages/LaGomeraDetails"
-        }
-    ]
+        "rewrite": "/index.html", 
+        "exclude": ["*.{svg,png,jpg,gif}", 
+        "*.css", "*.js"]
+    }    
 }
