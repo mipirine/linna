@@ -4,11 +4,15 @@
     },
     "routes":[
         {
+            "route":"/Layout",
+            "rewrite": "./components/Layout"
+        },
+        {
             "route": "/Home",
             "rewrite": "./pages/Home"
         },
         {
-            "route": "/CostaNavarino",
+            "route": "/CostaNavarinoDetails",
             "rewrite": "./pages/CostaNavarinoDetails"
         },
         {
@@ -18,6 +22,6 @@
         {
             "route": "/LaGomera",
             "rewrite": "./pages/LaGomeraDetails"
-        },
+        }
     ]
 }

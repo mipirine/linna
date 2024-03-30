@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'react'; 
 import '../App.css';
-//import NewCarousel from '../components/NewCarousel';
+import NewCarousel from '../components/NewCarousel';
 import Logo from '../components/Logo';
 import { Container, Row, Col, ResponsiveEmbed }  
     from 'react-bootstrap';
@@ -98,7 +98,7 @@ const CostaNavarinoDetails = () => (
         <Row>
             <Col xs={12} sm={12} md={12} lg={3}></Col>
             <Col xs={12} sm={12} md={12} lg={6}>
-            {/* <NewCarousel destination='costaNavarino' /> */}
+            <NewCarousel destination='costaNavarino' />
             </Col>
         </Row>
         </div>

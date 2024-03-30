@@ -1,23 +1,21 @@
 import React, {useRef} from 'react';
 import Button from 'react-bootstrap/Button';
-//import { Col, Row } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import { Col, Row } from 'react-bootstrap';
+import CostaNavarinoDetails from './CostaNavarinoDetails';
 
 import '../App.css';
 import Logo from '../components/Logo';
 
-export const Home = () => {
-    const ref = useRef(null);
 
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-    
-
+export const Home = () => {            
+    const navigate =useNavigate();
     return (
         <>
         
         
         <head className="App-header main">
+        
         <div className="etusivu">
         <Logo />  
           
@@ -25,14 +23,18 @@ export const Home = () => {
             hyvässä seurassa</h1>
             
             <h4>Koe upeat golfkohteet ympäri maailman!</h4>
-                <Button onclick={handleClick} variant='light'>TUTUSTU MATKOIHIN</Button>             
-            </div>
+            <a href="#matkat" smooth={true} duration={500}>
+              <Button variant="light">TUTUSTU MATKOIHIN</Button>
+            </a> 
+               
+        </div>
+        
         </head>
         <body>
       <div>
-      <div ref={ref} id="matkat" className="matkat main" style={{ height: '150rem' }} >
+            <div id="matkat" className="matkat main" style={{ height: '150rem' }} >
      
-        {/* <Row>
+        <Row>
           <Col xs={12} sm={12} md={12} lg={4} >
             <div className='destLinks'>
               <h1>CostaNavarino</h1>
@@ -41,7 +43,10 @@ export const Home = () => {
               <h5> Pro Tommi Linnan<br />
               peli- ja opetusmatka Kreikkaan</h5>
               <br />
-              <Button className="buttonInBall" onClick={()=> navigate('costaNavarino')}>LUE LISÄÄ</Button>
+              <Button onClick={()=> navigate('costaNavarino')}>LUE LISÄÄ</Button>
+              {/* <a href= {CostaNavarinoDetails} target="_self">
+               <Button  >LUE LISÄÄ</Button> 
+               </a> */}
               <br />
               <br />
             
@@ -57,7 +62,7 @@ export const Home = () => {
                 matkassa Marbellaan<br />
                 </h5>  
                 <br />
-                <Button className="buttonInBall" onClick={()=> navigate('puertoBanus')}>LUE LISÄÄ</Button>              
+                {/* <Button className="buttonInBall" onClick={()=> navigate('puertoBanus')}>LUE LISÄÄ</Button> */}              
                 <br />
                 <br />
             </div>
@@ -71,12 +76,12 @@ export const Home = () => {
                 matkassa Kanariansaarille<br />
                 </h5> 
                 <br /> 
-                <Button className="buttonInBall" onClick={()=> navigate('laGomera')}>LUE LISÄÄ</Button>
+                {/* <Button className="buttonInBall" onClick={()=> navigate('laGomera')}>LUE LISÄÄ</Button> */}
                 <br />
                 <br />
             </div>
           </Col>
-        </Row> */}
+        </Row> 
         </div>
         </div>
         </body>
