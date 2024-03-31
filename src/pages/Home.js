@@ -33,7 +33,7 @@ export const Home = () => {
         </head>
         <body>
       <div>
-            <div id="matkat" className="matkat main" style={{ height: '150rem' }} >
+        <div id="matkat" className="matkat main" >
      
         <Row>
           <Col xs={12} sm={12} md={12} lg={4} >
@@ -88,29 +88,29 @@ export const Home = () => {
 
         <Container className="containerPro">
           <div>
-        <h2 className="h2">
+        <h2 className="h2" style={{fontSize: '50px', fontWeight: 'bold'}}>
             Linnareissuilla opetuksesta<br />
             vastaavat aina ammattilaiset: 
             </h2>
           <Row>
             <Col xs={12} sm={12} md={12} lg={4} >
-              <Image src="./images/GolfPro-Tommi-Linna.jpg" width="auto" height="420px" rounded />
-              <h5 className="green">GolfPro</h5>
-              <h4>Tommi Linna</h4>
+              <Image src="./images/GolfPro-Tommi-Linna.jpg" width="auto" height="480px" rounded style={{marginBottom: '20px'}}/>
+              <h3 className="green" style={{fontWeight: 'bold'}}>GolfPro</h3>
+              <h2 style={{fontWeight: 'bold', marginBottom: '20px'}}>Tommi Linna</h2>
               <MyModal name="Tommi Linna" />
               
             </Col>
             <Col xs={12} sm={12} md={12} lg={4} >
-              <Image src="./images/GolfPro-Linda-Osala.jpg" width="auto" height="420px" rounded />
-              <h5 className="green">GolfPro</h5>
-              <h4>Linda Osala</h4> 
+              <Image src="./images/GolfPro-Linda-Osala.jpg" width="auto" height="480px" rounded style={{marginBottom: '20px'}} />
+              <h3 className="green" style={{fontWeight: 'bold'}}>GolfPro</h3>
+              <h2 style={{fontWeight: 'bold', marginBottom: '20px'}}>Linda Osala</h2> 
               <MyModal name="Linda Osala" />
             
             </Col>
             <Col xs={12} sm={12} md={12} lg={4} >
-              <Image src="./images/GolfPro-Teemu-Karvonen.jpg" width="auto" height="420px"rounded />
-              <h5 className="green">GolfPro</h5>
-              <h4>Teemu Karvonen</h4> 
+              <Image src="./images/GolfPro-Teemu-Karvonen.jpg" width="auto" height="480px"rounded style={{marginBottom: '20px'}} />
+              <h3 className="green">GolfPro</h3>
+              <h2 style={{fontWeight: 'bold', marginBottom: '20px'}}>Teemu Karvonen</h2> 
               <MyModal name="Teemu Karvonen" />
             </Col>
           </Row>

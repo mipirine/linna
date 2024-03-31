@@ -203,7 +203,7 @@
   }
   .modal-backdrop {
     z-index: 1;
-    opacity: 0.5 !important;
+    opacity: 0.6 !important;
   }
   
   .App-link {
@@ -235,8 +235,8 @@
   }
   .destLinks {
     font-family: Times;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
     background-image: url('/public/images/tausta.jpg');
