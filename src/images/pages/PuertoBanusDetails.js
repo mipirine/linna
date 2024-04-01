@@ -22,7 +22,7 @@ const BuertoBanusDetails = () => (
             />
             
             </div>
-            <div class="bg-primary text-white headingPanel">
+            <div class="panel bg-primary text-white headingPanel">
                 Marbella<br />
                 27.10.-3.11.2024
             </div>

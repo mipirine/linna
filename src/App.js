@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App-css-reset.css';
 import './App.css';
 
 import { Home } from './pages/Home';
@@ -13,7 +14,9 @@ function App() {
 
   return (
     <>
-    
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    </head>
     <BrowserRouter>
     <ScrollToTop>
     <Routes>

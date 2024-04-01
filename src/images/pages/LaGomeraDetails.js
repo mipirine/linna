@@ -23,7 +23,7 @@ const CostaNavarinoDetails = () => (
             />
             
             </div>
-            <div class="bg-primary text-white headingPanel">
+            <div class="panel bg-primary text-white headingPanel">
                 Gomera<br />
                 30.12.2024.-12.1.2025
             </div>
@@ -31,7 +31,7 @@ const CostaNavarinoDetails = () => (
     
         <section>
         <Row>
-        <Col xs={12} sm={12} md={12} lg={3} >    
+        <Col xs={12} sm={12} md={12} lg={4} >    
         </Col>
       <Col xs={12} sm={12} md={12} lg={8} >
       

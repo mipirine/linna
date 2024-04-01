@@ -28,7 +28,7 @@ const CostaNavarinoDetails = () => (
             />
             
             </div>
-            <div class="bg-primary text-white headingPanel">
+            <div class="panel bg-primary text-white headingPanel">
                 Costa Navarino<br />
                 7.-14.4.2024
             </div>
@@ -38,10 +38,10 @@ const CostaNavarinoDetails = () => (
 
       
       <Row>
-        <Col xs={12} sm={12} md={12} lg={3} >    
+        <Col xs={12} sm={12} md={12} lg={4} >    
         </Col>
       <Col xs={12} sm={12} md={12} lg={8} >
-        <div>
+        <div class="column left background-color:#aaa">
         </div>
         <div class ="column right">
             <h2 className="headingMatka">Tommi Linnan peli- ja opetusmatka<br />
@@ -61,8 +61,8 @@ const CostaNavarinoDetails = () => (
                 puolella on vehreää nurmea, oliivipuita, vuoria tai upeat näkymät merelle.
             </p>
            <p className="matkaTeksti">
-                Costa Navarinon neljä golfkenttää ovat tunnettujen golfkenttäsuunnittelijoiden Bernhard 
-                Langer, Robert Trent Jones Jr. ja José María Olazábal käsialaa. 
+            Costa Navarinon neljä golfkenttää ovat tunnettujen golfkenttäsuunnittelijoiden Bernhard 
+            Langer, Robert Trent Jones Jr. ja José María Olazábal käsialaa. 
             </p>
            <p className="matkaTeksti">
                 Kentiltä on vaikea poimia signature väyliä, niin huikeita näkymiä ja pelihaasteita
