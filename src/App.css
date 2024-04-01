@@ -210,3 +210,6 @@ a.social {
     background-color:#ecf2f9;
     margin-bottom: 10px;
   }
+  .modal-backdrop {
+    opacity: 0.6 !important;
+  }
