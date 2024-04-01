@@ -53,6 +53,7 @@ body {
 @media (max-width: 600px) {
 body {
 	font-size: 14px;
+	overflow-x: hidden;
 }
 .frontPageDiv {
 	background-image: url('/public/images/etuSivuMobile.jpg');
